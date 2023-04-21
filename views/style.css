@@ -1,0 +1,59 @@
+#info div,
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#info th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+#info th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#info tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+
+#glowna {
+    margin: auto;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+#glowna td {
+    padding: 10px;
+}
+
+#glowna td:first-child {
+    border: 2px solid black;
+    background-color: #2874a6;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+}
+
+#glowna td.active {
+    opacity: 0.5;
+}
+
+#1 p {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.panelL {
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 50px;
+}
+
+.panelR {
+    display: inline-block;
+    margin-right: 50px;
+}
